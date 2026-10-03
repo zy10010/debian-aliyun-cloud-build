@@ -27,7 +27,7 @@ on:
       ssh_pubkey:
         description: '注入镜像的 SSH 公钥（root 与 debian 用户都会写入）。填 none 则不注入任何公钥。'
         required: false
-        default: 'ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMvW/cDO0A5pLlIC0WD4jr586MYoxhcXvpvVX3evkOJv debian'
+        default: 'ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCwtJ0ZxAZML+YAWFwukGqw/E9ZrIb7RBeuXb4Ex5lSC24f44cOJd7Qy2Lbtv5bDsW1nW9QP4ol+O11OF6KY1xazGkes0h7Qrkwae61DWRmlnAIR7LHSQbjUUdreSBAOwhLDljmH7I4RBhffrJxjhzT26FSBeCvZtpiDkBuJOH6qOKwCA5JzWIbQmW7D28AlEyV5K3xMI4uL/IyLiu+nYIx6coraC5yZO4ztKDUZ2zL/8WOuZl9hK0DYARdl9Se5pQqUF708iX6p+AuYwugSOKFN5fMaDkiIiwGJPtNXGwZnrI7RIdeGI6B95mVmy796bTP30H7cJo1qJBXZMcE/sT7'
       password:
         description: '同时为 root 与 debian 用户设置的登录密码，留空则不设置任何密码。'
         required: false
